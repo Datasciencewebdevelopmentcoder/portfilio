@@ -37,15 +37,34 @@ section {
 }
 
 .skills {
-  background-color: #fff;
+  background-color: #f2f2f2; /* Adjust background color as needed */
+  padding: 20px;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills li {
+  flex: 1 1 30%; /* Adjust the width as needed */
+  margin: 10px;
+  padding: 10px;
+  background-color: #ffffff; /* Adjust background color as needed */
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for a card-like effect */
 }
 
 .skills h2 {
   color: #333;
 }
 
+
 ul {
-  list-style-type: none;
   padding: 0;
 }
 
