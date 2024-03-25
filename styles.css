@@ -24,11 +24,6 @@ section {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-.education ul {
-
-  list-style: none;
-}
-
 .skills {
   background-color: #f2f2f2; /* Adjust background color as needed */
   padding: 20px;
@@ -59,6 +54,7 @@ section {
 
 ul {
   padding: 0;
+  list-style: none;
 }
 
 .work-container {
@@ -73,13 +69,13 @@ ul {
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .work-item h3{
   text-align: center;
 }
-.work-item ul {
-  
+.work h2 , .education h2, .skills h2{
+  text-align: center;
   
 }
 .work-item ul > li{
@@ -110,10 +106,17 @@ h3 {
 
 .card-image {
   width: 100%;
-  height: auto;
+  height: 250px;
   display: block;
   margin-top: 25px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
 
+img {
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.1); /* Adjust the scale factor as needed */
+}
